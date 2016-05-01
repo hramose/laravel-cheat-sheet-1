@@ -4,7 +4,7 @@
 
 [@section('name')](section)
 
-@show
+[@show](show)
 
 @stop
 
@@ -76,3 +76,6 @@ Display the contents of a given [@section](section)
 #####[section](https://laravel.com/docs/master/blade#defining-a-layout)
 
 Defines a section of content.
+
+<a name='show'></a>
+#####[show](https://laravel.com/docs/master/blade#defining-a-layout)
