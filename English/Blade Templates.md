@@ -1,4 +1,4 @@
-@extends('layout.name')
+[@extends('layout.name')](extends)
 
 @section('name')
 
@@ -61,4 +61,7 @@
 @{{ This will not be processed by Blade }}
 
 ---
+
+<a name='extends'></a>
+#####[Extends](https://laravel.com/docs/master/blade#extending-a-layout)
 
