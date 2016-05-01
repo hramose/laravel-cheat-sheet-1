@@ -2,7 +2,7 @@
 
 [@yield('name')](yield)
 
-@section('name')
+[@section('name')](section)
 
 @show
 
@@ -72,3 +72,7 @@ Called from a child few to extend master layout.
 
 Display the contents of a given [@section](section)
 
+<a name='section'></a>
+#####[section](https://laravel.com/docs/master/blade#defining-a-layout)
+
+Defines a section of content.
