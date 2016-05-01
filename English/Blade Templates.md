@@ -1,14 +1,14 @@
 [@extends('layout.name')](extends)
 
-@section('name')
+[@yield('name')](yield)
 
-@stop
+@section('name')
 
 @show
 
-@parent
+@stop
 
-@yield('name')
+@parent
 
 @include('view.name')
 
@@ -63,5 +63,12 @@
 ---
 
 <a name='extends'></a>
-#####[Extends](https://laravel.com/docs/master/blade#extending-a-layout)
+#####[extends](https://laravel.com/docs/master/blade#extending-a-layout)
+
+Called from a child few to extend master layout.
+
+<a name='yield'></a>
+#####[yield](https://laravel.com/docs/master/blade#defining-a-layout)
+
+Display the contents of a given [@section](section)
 
