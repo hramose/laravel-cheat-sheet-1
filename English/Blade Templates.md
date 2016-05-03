@@ -6,13 +6,13 @@
 
 [@show](show)
 
-@stop
+[@stop](stop)
 
-@parent
+[@parent](parent)
 
-@include('view.name')
+[@include('view.name')](include)
 
-@include('view.name', array('key' => 'value'));
+[@include('view.name', array('key' => 'value'))](include)
 
 @lang('messages.name')
 
@@ -79,3 +79,15 @@ Defines a section of content.
 
 <a name='show'></a>
 #####[show](https://laravel.com/docs/master/blade#defining-a-layout)
+
+<a name='stop'></a>
+#####[stop](https://laravel.com/docs/5.0/templates#blade-templating)
+
+<a name='parent'></a>
+#####[parent](https://laravel.com/docs/master/blade#extending-a-layout)
+
+<a name='include'></a>
+#####[include](https://laravel.com/docs/master/blade#control-structures)
+
+
+
