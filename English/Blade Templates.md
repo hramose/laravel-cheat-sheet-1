@@ -12,9 +12,9 @@
 
 [@include('view.name')](include)
 
-[@include('view.name', array('key' => 'value'))](include)
+[@include('view.name', array('key' => 'value'))](include-extra)
 
-@lang('messages.name')
+[@lang('messages.name')]()
 
 @choice('messages.name', 1);
 
@@ -89,5 +89,10 @@ Defines a section of content.
 <a name='include'></a>
 #####[include](https://laravel.com/docs/master/blade#control-structures)
 
+Allows you to include a view from within an existing view. All variables that are available to the parent view will be made available to the included view.
 
+<a name='include-extra'></a>
+#####[include](https://laravel.com/docs/master/blade#control-structures)
+
+Passes an array of extra data to the included view.
 
