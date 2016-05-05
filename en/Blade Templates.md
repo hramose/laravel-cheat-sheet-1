@@ -80,11 +80,17 @@ Defines a section of content.
 <a name='show'></a>
 #####[show](https://laravel.com/docs/master/blade#defining-a-layout)
 
+NA
+
 <a name='stop'></a>
 #####[stop](https://laravel.com/docs/5.0/templates#blade-templating)
 
+NA
+
 <a name='parent'></a>
 #####[parent](https://laravel.com/docs/master/blade#extending-a-layout)
+
+NA
 
 <a name='include'></a>
 #####[include](https://laravel.com/docs/master/blade#control-structures)
