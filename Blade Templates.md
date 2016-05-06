@@ -2,216 +2,202 @@
 
 **en** Called from a child view to extend master layout.
 
-**ru** Расширяет родительский вид, вызывается из дочернего.
+**ru** Расширяет родительское представление, вызывается из дочернего.
  
-[@yield('name')](yield)
+[@yield('name')](https://laravel.com/docs/master/blade#defining-a-layout)
 
-[@section('name')](section)
+**en** Display the contents of a given @section.
 
-[@show](show)
+**ru** Отображает содержимое данной секции @section.
 
-[@stop](stop)
+[@section('name')](https://laravel.com/docs/master/blade#defining-a-layout)
 
-[@parent](parent)
+**en** Defines a section of content.
+
+**ru** Создает сожержимое секции. 
+
+[@show](https://laravel.com/docs/master/blade#defining-a-layout)
+
+**en** NA
+
+**ru** NA
+
+[@stop](https://laravel.com/docs/5.0/templates#blade-templating)
+
+**en** NA
+
+**ru** NA
+
+[@parent](https://laravel.com/docs/master/blade#extending-a-layout)
+
+**en** NA
+
+**ru** NA
 
 [@append](append)
 
+**en** NA
+
+**ru** NA
+
 [@overwrite](overwrite)
 
-[@include('view.name')](include)
+**en** NA
 
-[@include('view.name', array('key' => 'value'))](include-extra)
+**ru** NA
+
+[@include('view.name')](https://laravel.com/docs/master/blade#control-structures)
+
+**en** Allows you to include a view from within an existing view. All variables that are available to the parent view will be made available to the included view.
+
+**ru** Позволяет вставлять указанное представление в текущее представление. Все переменные, доступные текущему представлению, будут доступны дочернему.
+
+[@include('view.name', array('key' => 'value'))](https://laravel.com/docs/master/blade#control-structures)
+
+**en** Passes an array of extra data to the included view.
+
+**ru** Передает массив дополнительных данных во вставляемое представление.
 
 [@lang('messages.name')](lang)
 
+**en** NA
+
+**ru** NA
+
 [@choice](choice)
 
-[@if](if)
+**en** NA
 
-[@else](else)
+**ru** NA
 
-[@elseif](elseif)
+[@if](https://laravel.com/docs/5.2/blade#control-structures)
 
-[@endif](endif)
+**en** NA
+
+**ru** NA
+
+[@else](https://laravel.com/docs/5.2/blade#control-structures)
+
+**en** NA
+
+**ru** NA
+
+[@elseif](https://laravel.com/docs/5.2/blade#control-structures)
+
+**en** NA
+
+**ru** NA
+
+[@endif](https://laravel.com/docs/5.2/blade#control-structures)
+
+**en** NA
+
+**ru** NA
 
 [@unless](unless)
 
+**en** NA
+
+**ru** NA
+
 [@endunless](endunless)
+
+**en** NA
+
+**ru** NA
 
 [@for](for)
 
+**en** NA
+
+**ru** NA
+
 [@endfor](endfor)
+
+**en** NA
+
+**ru** NA
 
 [@foreach](foreach)
 
+**en** NA
+
+**ru** NA
+
 [@endforeach](endforeach)
+
+**en** NA
+
+**ru** NA
 
 [@while](while)
 
+**en** NA
+
+**ru** NA
+
 [@endwhile](endwhile)
+
+**en** NA
+
+**ru** NA
 
 [@forelse($users as $user)](forelse)
 
+**en** NA
+
+**ru** NA
+
 [@empty](empty)
+
+**en** NA
+
+**ru** NA
 
 [@endforelse](endforelse)
 
+**en** NA
+
+**ru** NA
+
 [{{ $escapedVariable }}](escaped)
+
+**en** NA
+
+**ru** NA
 
 [{!! $unescapedVariable !!}](unescaped)
 
+**en** NA
+
+**ru** NA
+
 [{{-- Blade Comment --}}](comment)
+
+**en** NA
+
+**ru** NA
 
 [{{ $name or 'Default' }}](or)
 
+**en** NA
+
+**ru** NA
+
 [@{{ This will not be processed by Blade }}](notprocessed)
+
+**en** NA
+
+**ru** NA
 
 [@stack(name)](stack)
 
+**en** NA
+
+**ru** NA
+
 [@push(name)](push)
 
----
+**en** NA
 
-<a name='extends'></a>
-[extends](https://laravel.com/docs/master/blade#extending-a-layout)
-
-Called from a child few to extend master layout.
-
-<a name='yield'></a>
-[yield](https://laravel.com/docs/master/blade#defining-a-layout)
-
-Display the contents of a given [@section](section)
-
-<a name='section'></a>
-[section](https://laravel.com/docs/master/blade#defining-a-layout)
-
-Defines a section of content.
-
-<a name='show'></a>
-[show](https://laravel.com/docs/master/blade#defining-a-layout)
-
-NA
-
-<a name='stop'></a>
-[stop](https://laravel.com/docs/5.0/templates#blade-templating)
-
-NA
-
-<a name='parent'></a>
-[parent](https://laravel.com/docs/master/blade#extending-a-layout)
-
-NA
-
-<a name='include'></a>
-[include](https://laravel.com/docs/master/blade#control-structures)
-
-Allows you to include a view from within an existing view. All variables that are available to the parent view will be made available to the included view.
-
-<a name='include-extra'></a>
-[include](https://laravel.com/docs/master/blade#control-structures)
-
-Passes an array of extra data to the included view.
-
-<a name='append'></a>
-[append]()
-NA
-
-<a name='overwrite'></a>
-[overwrite]()
-NA
-
-<a name='choice'></a>
-(choice)
-NA
-
-<a name='lang'></a>
-[lang]()
-NA
-
-<a name='if'></a>
-[if](https://laravel.com/docs/5.2/blade#control-structures)
-NA
-
-<a name='else'></a>
-[else](https://laravel.com/docs/5.2/blade#control-structures)
-NA
-
-<a name='elseif'></a>
-[elseif](https://laravel.com/docs/5.2/blade#control-structures)
-NA
-
-<a name='endif'></a>
-[endif](https://laravel.com/docs/5.2/blade#control-structures)
-NA
-
-<a name='unless'></a>
-[unless]()
-NA
-
-<a name='endunless'></a>
-[endunless]()
-NA
-
-<a name='for'></a>
-[for]()
-NA
-
-<a name='endfor'></a>
-[endfor]()
-NA
-
-<a name='foreach'></a>
-[foreach]()
-NA
-
-<a name='endforeach'></a>
-[endforeach]()
-NA
-
-<a name='while'></a>
-[while]()
-NA
-
-<a name='endwhile'></a>
-[endwhile]()
-NA
-
-<a name='forelse'></a>
-[forelse]()
-NA
-
-<a name='empty'></a>
-[empty]()
-NA
-
-<a name='endforelse'></a>
-[endforelse]()
-NA
-
-<a name='escaped'></a>
-[escaped]()
-NA
-
-<a name='unescaped'></a>
-[unescaped]()
-NA
-
-<a name='comment'></a>
-[comment]()
-NA
-
-<a name='or'></a>
-[or]()
-NA
-
-<a name='notprocessed'></a>
-[notprocessed]()
-NA
-
-<a name='stack'></a>
-[stack]()
-NA
-
-<a name='stack'></a>
-[stack]()
-NA
+**ru** NA
