@@ -1,5 +1,8 @@
-[@extends('layout.name')](extends)
+[@extends('layout.name')](https://laravel.com/docs/master/blade#extending-a-layout)
 
+en - Called from a child view to extend master layout.
+ru - Расширяет родительский вид, вызывается из дочернего.
+ 
 [@yield('name')](yield)
 
 [@section('name')](section)
@@ -61,6 +64,10 @@
 [{{ $name or 'Default' }}](or)
 
 [@{{ This will not be processed by Blade }}](notprocessed)
+
+[@stack(name)](stack)
+
+[@push(name)](push)
 
 ---
 
@@ -198,4 +205,12 @@ NA
 
 <a name='notprocessed'></a>
 [notprocessed]()
+NA
+
+<a name='stack'></a>
+[stack]()
+NA
+
+<a name='stack'></a>
+[stack]()
 NA
