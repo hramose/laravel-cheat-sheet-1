@@ -1,6 +1,7 @@
 [@extends('layout.name')](https://laravel.com/docs/master/blade#extending-a-layout)
 
 en - Called from a child view to extend master layout.
+
 ru - Расширяет родительский вид, вызывается из дочернего.
  
 [@yield('name')](yield)
