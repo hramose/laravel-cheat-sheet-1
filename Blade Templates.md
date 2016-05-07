@@ -1,203 +1,203 @@
 [@extends('layout.name')](https://laravel.com/docs/master/blade#extending-a-layout)
 
-**en** Called from a child view to extend master layout.
+*en* Called from a child view to extend master layout.
 
-**ru** Расширяет родительское представление, вызывается из дочернего.
+*ru* Расширяет родительское представление, вызывается из дочернего.
  
 [@yield('name')](https://laravel.com/docs/master/blade#defining-a-layout)
 
-**en** Display the contents of a given @section.
+*en* Display the contents of a given @section.
 
-**ru** Отображает содержимое данной секции @section.
+*ru* Отображает содержимое данной секции @section.
 
 [@section('name')](https://laravel.com/docs/master/blade#defining-a-layout)
 
-**en** Defines a section of content.
+*en* Defines a section of content.
 
-**ru** Создает сожержимое секции. 
+*ru* Создает сожержимое секции. 
 
 [@show](https://laravel.com/docs/master/blade#defining-a-layout)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@stop](https://laravel.com/docs/5.0/templates#blade-templating)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@parent](https://laravel.com/docs/master/blade#extending-a-layout)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@append](append)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@overwrite](overwrite)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@include('view.name')](https://laravel.com/docs/master/blade#control-structures)
 
-**en** Allows you to include a view from within an existing view. All variables that are available to the parent view will be made available to the included view.
+*en* Allows you to include a view from within an existing view. All variables that are available to the parent view will be made available to the included view.
 
-**ru** Позволяет вставлять указанное представление в текущее представление. Все переменные, доступные текущему представлению, будут доступны дочернему.
+*ru* Позволяет вставлять указанное представление в текущее представление. Все переменные, доступные текущему представлению, будут доступны дочернему.
 
 [@include('view.name', array('key' => 'value'))](https://laravel.com/docs/master/blade#control-structures)
 
-**en** Passes an array of extra data to the included view.
+*en* Passes an array of extra data to the included view.
 
-**ru** Передает массив дополнительных данных во вставляемое представление.
+*ru* Передает массив дополнительных данных во вставляемое представление.
 
 [@lang('messages.name')](lang)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@choice](choice)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@if](https://laravel.com/docs/5.2/blade#control-structures)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@else](https://laravel.com/docs/5.2/blade#control-structures)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@elseif](https://laravel.com/docs/5.2/blade#control-structures)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@endif](https://laravel.com/docs/5.2/blade#control-structures)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@unless](unless)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@endunless](endunless)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@for](for)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@endfor](endfor)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@foreach](foreach)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@endforeach](endforeach)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@while](while)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@endwhile](endwhile)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@forelse($users as $user)](forelse)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@empty](empty)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@endforelse](endforelse)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [{{ $escapedVariable }}](escaped)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [{!! $unescapedVariable !!}](unescaped)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [{{-- Blade Comment --}}](comment)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [{{ $name or 'Default' }}](or)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@{{ This will not be processed by Blade }}](notprocessed)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@stack(name)](stack)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
 
 [@push(name)](push)
 
-**en** NA
+*en*
 
-**ru** NA
+*ru*
