@@ -28,7 +28,7 @@
 
 *ru*
 
-[@parent](https://laravel.com/docs/master/blade#extending-a-layout)
+[&#64;parent](https://laravel.com/docs/master/blade#extending-a-layout)
 
 *en*
 
