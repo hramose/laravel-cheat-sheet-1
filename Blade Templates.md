@@ -18,33 +18,51 @@
 
 [@show](https://laravel.com/docs/master/blade#defining-a-layout)
 
-*en*
+*en* Yields section content and ends section.
 
-*ru*
+*ru* Отображает содержимое секции и завершает ее.
 
 [@stop](https://laravel.com/docs/5.0/templates#blade-templating)
 
-*en*
+*en* Ends section.
 
-*ru*
+*ru* Закрывает секцию.
 
-[&#64;parent](https://laravel.com/docs/master/blade#extending-a-layout)
+[@parent](https://laravel.com/docs/master/blade#extending-a-layout)
 
-*en*
+*en* Appends (rather than overwriting) content to the a section. The directive will be replaced by the content of the layout when the view is rendered.
 
-*ru*
+*ru* Добавляет содержимое к секции, не перезаписывая его. Сама директива будет замещена содержимым родительского представления.
+
+[@hasSection('title')](https://laravel.com/docs/master/blade#control-structures)
+
+*en* Determines if a given layout section has any content.
+
+*ru* Определяет имеет ли передаваемый вид какое-либо содержимое.
 
 [@append](append)
 
-*en*
+*en* Concatenates section content to section content of a master layout. Used instead of @stop directive.
 
-*ru*
+*ru* Добавляет содержимое секции к содержимому секции в родительском представлении. Используется вместо @stop.
 
 [@overwrite](overwrite)
 
-*en*
+*en* Overwrites content of previous section with the same name. Used instead of @stop directive.
 
-*ru*
+@section('name')
+   content1
+@stop
+@section('name')
+   content2
+@stop
+@yield('name')
+
+Result:
+
+content2
+
+*ru* Перезаписывает содержимое любой предыдущей секции с таким же именем. Используется вместо @stop.
 
 [@include('view.name')](https://laravel.com/docs/master/blade#control-structures)
 
@@ -83,6 +101,18 @@
 *ru*
 
 [@elseif](https://laravel.com/docs/5.2/blade#control-structures)
+
+*en*
+
+*ru*
+
+[@elsecan]()
+
+*en*
+
+*ru*
+
+[@elsecannot]()
 
 *en*
 
