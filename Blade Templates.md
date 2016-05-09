@@ -64,28 +64,30 @@ ru
 [@overwrite](overwrite)
 
 en
-> Overwrites content of previous section with the same name. Used instead of @stop directive.
-> ```
-> @section('name')
-> 
->    content1
->    
-> @stop
-> 
-> @section('name')
-> 
->    content2
-> 
-> @stop
-> 
-> @yield('name')
-> ```
-> 
-> Result:
-> 
-> ```
-> content2
-> ```
+<dl>
+Overwrites content of previous section with the same name. Used instead of @stop directive.
+
+```
+@section('name')
+
+   content1
+   
+@stop
+
+@section('name')
+
+   content2
+
+@stop
+
+@yield('name')
+```
+
+Result:
+
+```
+content2
+```</dl>
 
 ru
 > Перезаписывает содержимое любой предыдущей секции с таким же именем. Используется вместо @stop.
