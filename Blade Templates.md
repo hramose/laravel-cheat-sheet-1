@@ -1,10 +1,10 @@
 [@extends('layout.name')](https://laravel.com/docs/master/blade#extending-a-layout)
 
 en
->Called from a child view to extend master layout.
+> Called from a child view to extend master layout.
 
 ru
->Расширяет родительское представление, вызывается из дочернего.
+> Расширяет родительское представление, вызывается из дочернего.
 
 [@yield('name')](https://laravel.com/docs/master/blade#defining-a-layout)
 
@@ -18,43 +18,54 @@ ru
 en
 > Defines a section of content.
 
-ru* Создает сожержимое секции. 
+ru
+> Создает сожержимое секции. 
 
 [@show](https://laravel.com/docs/master/blade#defining-a-layout)
 
-*en* Yields section content and ends section.
+en
+> Yields section content and ends section.
 
-*ru* Отображает содержимое секции и завершает ее.
+ru
+> Отображает содержимое секции и завершает ее.
 
 [@stop](https://laravel.com/docs/5.0/templates#blade-templating)
 
-*en* Ends section.
+en
+> Ends section.
 
-*ru* Закрывает секцию.
+ru
+> Закрывает секцию.
 
 [@parent](https://laravel.com/docs/master/blade#extending-a-layout)
 
-*en* Appends (rather than overwriting) content to the a section. The directive will be replaced by the content of the layout when the view is rendered.
+en
+> Appends (rather than overwriting) content to the a section. The directive will be replaced by the content of the layout when the view is rendered.
 
-*ru* Добавляет содержимое к секции, не перезаписывая его. Сама директива будет замещена содержимым родительского представления.
+ru
+> Добавляет содержимое к секции, не перезаписывая его. Сама директива будет замещена содержимым родительского представления.
 
 [@hasSection('title')](https://laravel.com/docs/master/blade#control-structures)
 
-*en* Determines if a given layout section has any content.
+en
+> Determines if a given layout section has any content.
 
-*ru* Определяет имеет ли передаваемый вид какое-либо содержимое.
+ru
+> Определяет имеет ли передаваемый вид какое-либо содержимое.
 
 [@append](append)
 
-*en* Concatenates section content to section content of a master layout. Used instead of @stop directive.
+en
+> Concatenates section content to section content of a master layout. Used instead of @stop directive.
 
-*ru* Добавляет содержимое секции к содержимому секции в родительском представлении. Используется вместо @stop.
+ru
+> Добавляет содержимое секции к содержимому секции в родительском представлении. Используется вместо @stop.
 
 [@overwrite](overwrite)
 
-**en**
+en
 > Overwrites content of previous section with the same name. Used instead of @stop directive.
->
+> ```
 > [code]@section('name')
 >    content1
 > @stop
@@ -62,179 +73,236 @@ ru* Создает сожержимое секции.
 >    content2
 > @stop
 > @yield('name')[/code]
-> 
+> ```
 > Result:
 > 
 > ```
 > content2
 > ```
 
-*ru* Перезаписывает содержимое любой предыдущей секции с таким же именем. Используется вместо @stop.
+ru
+> Перезаписывает содержимое любой предыдущей секции с таким же именем. Используется вместо @stop.
 
 [@include('view.name')](https://laravel.com/docs/master/blade#control-structures)
 
-*en* Allows you to include a view from within an existing view. All variables that are available to the parent view will be made available to the included view.
+en
+> Allows you to include a view from within an existing view. All variables that are available to the parent view will be made available to the included view.
 
-*ru* Позволяет вставлять указанное представление в текущее представление. Все переменные, доступные текущему представлению, будут доступны дочернему.
+ru
+> Позволяет вставлять указанное представление в текущее представление. Все переменные, доступные текущему представлению, будут доступны дочернему.
 
 [@include('view.name', array('key' => 'value'))](https://laravel.com/docs/master/blade#control-structures)
 
-*en* Passes an array of extra data to the included view.
+en
+> Passes an array of extra data to the included view.
 
-*ru* Передает массив дополнительных данных во вставляемое представление.
+ru
+> Передает массив дополнительных данных во вставляемое представление.
 
 [@lang('messages.name')](lang)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@choice](choice)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@if](https://laravel.com/docs/5.2/blade#control-structures)
 
-*en*
+en
 
-*ru*
+
+ru
+>
 
 [@else](https://laravel.com/docs/5.2/blade#control-structures)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@elseif](https://laravel.com/docs/5.2/blade#control-structures)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@elsecan]()
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@elsecannot]()
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@endif](https://laravel.com/docs/5.2/blade#control-structures)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@unless](unless)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@endunless](endunless)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@for](for)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@endfor](endfor)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@foreach](foreach)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@endforeach](endforeach)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@while](while)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@endwhile](endwhile)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@forelse($users as $user)](forelse)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@empty](empty)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@endforelse](endforelse)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [{{ $escapedVariable }}](escaped)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [{!! $unescapedVariable !!}](unescaped)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [{{-- Blade Comment --}}](comment)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [{{ $name or 'Default' }}](or)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@{{ This will not be processed by Blade }}](notprocessed)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@stack(name)](stack)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
 
 [@push(name)](push)
 
-*en*
+en
+>
 
-*ru*
+ru
+>
