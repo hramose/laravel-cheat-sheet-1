@@ -64,7 +64,7 @@ ru
 [@overwrite](overwrite)
 
 en
-<dl>
+
 Overwrites content of previous section with the same name. Used instead of @stop directive.
 
 ```
@@ -87,7 +87,7 @@ Result:
 
 ```
 content2
-```</dl>
+```
 
 ru
 > Перезаписывает содержимое любой предыдущей секции с таким же именем. Используется вместо @stop.
