@@ -48,24 +48,25 @@
 
 [@overwrite](overwrite)
 
-*en* *Overwrites content of previous section with the same name. Used instead of @stop directive.
+*en*
+---
+Overwrites content of previous section with the same name. Used instead of @stop directive.
 
-```
-@section('name')
+
+[code]@section('name')
    content1
 @stop
 @section('name')
    content2
-@stop
-@yield('name')
-```
+[/code]
+`@stop`
+`@yield('name')`
+
 
 Result:
 
-```
-content2
-```
-
+`content2`
+---
 *ru* Перезаписывает содержимое любой предыдущей секции с таким же именем. Используется вместо @stop.
 
 [@include('view.name')](https://laravel.com/docs/master/blade#control-structures)
