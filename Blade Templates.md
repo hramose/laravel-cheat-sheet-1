@@ -1,14 +1,17 @@
 [@extends('layout.name')](https://laravel.com/docs/master/blade#extending-a-layout)
 
-*en* Called from a child view to extend master layout.
+en
+> Called from a child view to extend master layout.
 
-*ru* Расширяет родительское представление, вызывается из дочернего.
- 
+ru
+> Расширяет родительское представление, вызывается из дочернего.
+
 [@yield('name')](https://laravel.com/docs/master/blade#defining-a-layout)
 
-*en* Display the contents of a given @section.
-
-*ru* Отображает содержимое данной секции @section.
+en
+> Display the contents of a given @section.
+ru
+> Отображает содержимое данной секции @section.
 
 [@section('name')](https://laravel.com/docs/master/blade#defining-a-layout)
 
