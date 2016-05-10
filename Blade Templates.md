@@ -66,7 +66,8 @@ ru
 en
 
 >Overwrites content of previous section with the same name. Used instead of @stop directive.
-> ```
+>
+> [code]
 > @section('name')
 > 
 >     content1
@@ -80,12 +81,13 @@ en
 > @stop
 > 
 > @yield('name')
+> [/code]
 > 
 > Result:
 > 
-> ```
+> [code]
 > content2
-> ```
+> [/code]
 
 ru
 > Перезаписывает содержимое любой предыдущей секции с таким же именем. Используется вместо @stop.
