@@ -64,7 +64,6 @@ ru
 [@overwrite](overwrite)
 
 en
-<div>
 Overwrites content of previous section with the same name. Used instead of @stop directive.
 
     @section('name')
@@ -80,7 +79,9 @@ Overwrites content of previous section with the same name. Used instead of @stop
 Result:
 
     content2
-</div>
+
+---
+
 
 ru
 > Перезаписывает содержимое любой предыдущей секции с таким же именем. Используется вместо @stop.
