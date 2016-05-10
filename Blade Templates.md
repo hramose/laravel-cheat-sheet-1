@@ -64,22 +64,23 @@ ru
 [@overwrite](overwrite)
 
 en
+<div>
+Overwrites content of previous section with the same name. Used instead of @stop directive.
 
->Overwrites content of previous section with the same name. Used instead of @stop directive.
->
->     @section('name')
->         content1
->     @stop
->     
->     @section('name')
->         content2
->     @stop
-> 
->     @yield('name')
-> 
-> Result:
-> 
->     content2
+    @section('name')
+        content1
+    @stop
+    
+    @section('name')
+        content2
+    @stop
+
+    @yield('name')
+
+Result:
+
+    content2
+</div>
 
 ru
 > Перезаписывает содержимое любой предыдущей секции с таким же именем. Используется вместо @stop.
