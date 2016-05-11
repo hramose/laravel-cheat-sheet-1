@@ -66,7 +66,7 @@ ru
 en
 >Overwrites content of previous section with the same name. Used instead of @stop directive.
 >
->      @section('name')
+>     @section('name')
 >
 >         content1
 >
