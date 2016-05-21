@@ -10,6 +10,7 @@ ru
 
 en
 > Display the contents of a given @section.
+
 ru
 > Отображает содержимое данной секции @section.
 
