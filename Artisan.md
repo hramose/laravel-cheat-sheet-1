@@ -1,4 +1,4 @@
--h, --help
+[-h, --help]()
 
 en
 >Display this help message
@@ -6,7 +6,7 @@ en
 ru
 >
 
--q, --quiet
+[-q, --quiet]()
 
 en
 > Do not output any message
@@ -14,7 +14,7 @@ en
 ru
 > Display this application version
 
--V, --version
+[-V, --version]()
 
 en
 >
